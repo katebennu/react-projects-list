@@ -1,0 +1,47 @@
+body {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.btn-circle-scroll {
+  font-size: 20px;
+  color: grey;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.center {
+  margin: auto;
+  width: 0%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+section hr {
+  padding-top: 20px;
+}
+
+.section-img {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#portfolio img {
+  padding: 10px;
+}
+
+#scroll {
+  float: center;
+}
+
+
+
