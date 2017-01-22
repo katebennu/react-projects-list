@@ -1,0 +1,14 @@
+#pad {
+  background-color: grey;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+#weather {
+  text-align: center;
+}
+body {
+  color: white;
+  background-image: url("../pics/fourSeasons.jpg");
+
+}
