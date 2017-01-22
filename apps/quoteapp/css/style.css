@@ -44,3 +44,8 @@ div.socialFrame {
 #plink {
   text-align: right;
 }
+#back {
+    display: block;
+    margin: auto;
+    width: 10%;
+}

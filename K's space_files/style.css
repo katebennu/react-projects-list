@@ -43,5 +43,6 @@ section hr {
   float: center;
 }
 
-
-
+.caption {
+  text-align: center;
+}
