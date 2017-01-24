@@ -3,6 +3,7 @@ div.mainFrame {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 30px;
+  border-radius:20px;
 }
 div.quoteFrame {
   background-color: rgb(230, 213, 247);
