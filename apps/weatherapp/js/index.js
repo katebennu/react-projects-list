@@ -6,10 +6,10 @@ $(document).ready(function () {
 
         var lat = (position.coords.latitude).toFixed(10);
         var lon = (position.coords.longitude).toFixed(10);
-        console.log(lat, lon);
+        //console.log(lat, lon);
 
         var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=87703abe8c78fd2ec0117e25f494fa76";
-        console.log(url);
+        //console.log(url);
 
         $.getJSON(url, function (json) {
             var name = "<h4>" + json.name + "</h4>";
@@ -23,9 +23,9 @@ $(document).ready(function () {
     }
 
     function error (err) {
-        console.warn(err.message);
+        //console.warn(err.message);
         var url = "http://api.openweathermap.org/data/2.5/weather?q=helsinki&appid=87703abe8c78fd2ec0117e25f494fa76";
-        console.log(url);
+        //console.log(url);
         $.getJSON(url, function (json) {
             var name = "<h4>" + json.name + "</h4>";
             var text = "<h2>" + json.weather[0].main + "</h2>";
