@@ -5,7 +5,7 @@ $(document).ready(function() {
             var lat = (position.coords.latitude).toFixed(0),
                 lon = (position.coords.longitude).toFixed(0);
             //$("#test").html("latitude: " + lat + "<br>longitude: " + lon);
-            var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=87703abe8c78fd2ec0117e25f494fa76"
+            var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=87703abe8c78fd2ec0117e25f494fa76";
 
             $.getJSON(url, function(json) {
                 var name = "<h4>" + json.name + "</h4>";
