@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $("#getQuote").mouseenter(function() {
-    $(this).css("background-color", "rgb(234, 185, 196)");
+    $(this).css("background-color", "rgb(171, 160, 186)");
   });
   $("#getQuote").mouseleave(function() {
-    $(this).css("background-color", "rgb(230, 213, 247)");
+    $(this).css("background-color", "rgb(143, 145, 168)");
   });
   
   
