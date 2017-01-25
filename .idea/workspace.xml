@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50d0348d-b6e9-428b-a441-5a671887b273" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/css/style.css" afterPath="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/index.html" afterPath="$PROJECT_DIR$/apps/weatherapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/js/index.js" afterPath="$PROJECT_DIR$/apps/weatherapp/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -342,12 +340,12 @@
       <workItem from="1485200962980" duration="802000" />
       <workItem from="1485224501366" duration="5165000" />
       <workItem from="1485295675108" duration="2935000" />
-      <workItem from="1485353968835" duration="3262000" />
+      <workItem from="1485353968835" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14946000" />
+    <option name="totallyTimeSpent" value="15205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="113" y="105" width="1408" height="1000" extended-state="0" />
@@ -522,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding />
         </state>
       </provider>

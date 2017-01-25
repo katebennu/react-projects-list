@@ -23,6 +23,7 @@ h1 {
 body {
     color: white;
     background-image: url("../pics/fourSeasons.jpg");
+    background-size: 100%;
 }
 
 #backdiv {
