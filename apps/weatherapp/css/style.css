@@ -2,8 +2,8 @@
     background-color: darkseagreen;
     margin-top: 100px;
     margin-bottom: 50px;
-    padding: 50px;
-    width: 80%;
+    padding: 100px;
+    width: 75%;
     opacity: 0.8;
     border-radius:20px;
 }
@@ -12,8 +12,6 @@
     display: inline-block;
     margin: 20px;
 }
-
-
 
 h1 {
     font-size: 800%;
@@ -27,8 +25,12 @@ body {
     background-image: url("../pics/fourSeasons.jpg");
 }
 
-#back {
+#backdiv {
     display: block;
     margin: auto;
     width: 10%;
+}
+
+#back {
+    width: 150px;
 }

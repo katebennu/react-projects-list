@@ -16,7 +16,7 @@ $(document).ready(function () {
             var text = "<h2>" + json.weather[0].main + "</h2>";
 
             var t = (json.main.temp - 273.15).toFixed(1);
-            var temp = "<h1>" + t + "&deg; C</h1>";
+            var temp = "<h1>" + t + "&deg;C</h1>";
             var img = "<img src='http://openweathermap.org/img/w/" + json.weather[0].icon + ".png'>"
             $("#city").html(name);
             $("#temp").html(temp);
@@ -34,9 +34,12 @@ $(document).ready(function () {
             var name = "<h4>" + json.name + "</h4>";
             var text = "<h2>" + json.weather[0].main + "</h2>";
             var t = (json.main.temp - 273.15).toFixed(1);
-            var temp = "<h1>" + t + " &deg; C</h1>";
+            var temp = "<h1>" + t + "&deg;C</h1>";
             var img = "<img src='http://openweathermap.org/img/w/" + json.weather[0].icon + ".png'>"
-            $("#city").html(name + temp + text + img);
+            $("#city").html(name);
+            $("#temp").html(temp);
+            $("#text").html(text);
+            $("#img").html(img);
         });
     }
 
