@@ -46,3 +46,10 @@ section hr {
 .caption {
   text-align: center;
 }
+
+#navbar {
+  font-size: 150%;
+}
+.glyphicon {
+  font-size: 150%;
+}
