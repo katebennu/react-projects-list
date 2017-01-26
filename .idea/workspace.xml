@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d0348d-b6e9-428b-a441-5a671887b273" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/css/style.css" afterPath="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/quoteapp/css/style.css" afterPath="$PROJECT_DIR$/apps/quoteapp/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/quoteapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="788">
+              <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/staticfiles/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apps/quoteapp/index.html" />
-        <option value="$PROJECT_DIR$/apps/quoteapp/css/style.css" />
         <option value="$PROJECT_DIR$/apps/weatherapp/index.html" />
         <option value="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
+        <option value="$PROJECT_DIR$/apps/quoteapp/css/style.css" />
       </list>
     </option>
   </component>
@@ -358,12 +358,12 @@
       <workItem from="1485200962980" duration="802000" />
       <workItem from="1485224501366" duration="5165000" />
       <workItem from="1485295675108" duration="2935000" />
-      <workItem from="1485353968835" duration="10566000" />
+      <workItem from="1485353968835" duration="10723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22250000" />
+    <option name="totallyTimeSpent" value="22407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="80" width="1652" height="1000" extended-state="0" />
@@ -520,6 +520,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/weatherapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -538,16 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/quoteapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="788">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding />
         </state>
       </provider>
