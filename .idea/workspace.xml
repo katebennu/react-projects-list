@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d0348d-b6e9-428b-a441-5a671887b273" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/mainscript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/js/index.js" afterPath="$PROJECT_DIR$/apps/weatherapp/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/weatherapp/css/style.css" afterPath="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -66,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainscript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainscript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staticfiles/mainscript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -100,11 +97,11 @@
         <option value="$PROJECT_DIR$/apps/quoteapp/index.html" />
         <option value="$PROJECT_DIR$/apps/quoteapp/css/style.css" />
         <option value="$PROJECT_DIR$/staticfiles/style.css" />
-        <option value="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
         <option value="$PROJECT_DIR$/apps/weatherapp/index.html" />
         <option value="$PROJECT_DIR$/apps/weatherapp/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/staticfiles/mainscript.js" />
+        <option value="$PROJECT_DIR$/apps/weatherapp/css/style.css" />
       </list>
     </option>
   </component>
@@ -115,8 +112,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
-    <option name="y" value="52" />
+    <option name="x" value="549" />
+    <option name="y" value="201" />
     <option name="width" value="1233" />
     <option name="height" value="1000" />
   </component>
@@ -366,15 +363,15 @@
       <workItem from="1485200962980" duration="802000" />
       <workItem from="1485224501366" duration="5165000" />
       <workItem from="1485295675108" duration="2935000" />
-      <workItem from="1485353968835" duration="17005000" />
+      <workItem from="1485353968835" duration="17705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28689000" />
+    <option name="totallyTimeSpent" value="29389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="613" y="52" width="1233" height="1000" extended-state="0" />
+    <frame x="549" y="201" width="1233" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28760332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -528,14 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/weatherapp/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -555,6 +544,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/mainscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
@@ -563,10 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/mainscript.js">
+    <entry file="file://$PROJECT_DIR$/apps/weatherapp/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
