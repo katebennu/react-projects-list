@@ -35,3 +35,9 @@ body {
 #back {
     width: 150px;
 }
+
+#switch {
+    float: right;
+}
+
+
