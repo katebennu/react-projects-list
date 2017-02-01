@@ -42,6 +42,19 @@ div.randomFrame {
   text-align: center;
   cursor: pointer;
 }
+
+div.outFrame {
+  background-color: rgb(143, 145, 168);
+  margin-top: 40px;
+  padding: 20px;
+  border-radius:20px;
+}
+div.output {
+  background-color: white;
+  padding: 20px;
+  border-radius:20px;
+}
+
 #plink {
   text-align: right;
 }
