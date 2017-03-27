@@ -51,6 +51,10 @@ section hr {
   text-align: center;
 }
 
+.comment {
+    text-align: center;
+}
+
 #navbar {
   font-size: 150%;
 }
