@@ -12,16 +12,22 @@ class Tile extends React.Component {
 
 
 class Panel extends React.Component {
-    renderTile(i) {
-        return <Tile/>;
-    }
-
     render() {
+        const data = [
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
+        ];
+
+        const tiles = data.map((i) => {
+            return (
+                <Tile/>
+            )
+        });
+
         return (
             <div className="panel">
-                {this.renderTile(0)}
-                {this.renderTile(1)}
-                {this.renderTile(2)}
+                {tiles}
             </div>
         );
     }
@@ -31,15 +37,10 @@ class Page extends React.Component {
 
 
     render() {
-        const data = [
-            {'name': 'First item', 'text': 'This is the text of the first item'},
-            {'name': 'Second item', 'text': 'This is the text of the second item'},
-            {'name': 'Third item', 'text': 'This is the text of the third item'}
-        ];
         return (
             <div className="container page">
                 <div className="page-content">
-                    <Panel data={data}/>
+                    <Panel/>
                 </div>
             </div>
         );
