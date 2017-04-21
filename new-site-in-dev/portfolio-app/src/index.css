@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page,
+.panel {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 20px;
+}
