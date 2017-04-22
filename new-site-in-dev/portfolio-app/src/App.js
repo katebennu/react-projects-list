@@ -4,7 +4,8 @@ class Tile extends React.Component {
     render() {
         return (
             <div className="tile">
-                <p>Hi, I'm a {this.props.name} </p>
+                <p>Hi, I'm a {this.props.tilesData['name']} </p>
+                <p>{this.props.tilesData['text']}</p>
             </div>
         );
     }
@@ -13,18 +14,9 @@ class Tile extends React.Component {
 
 class Panel extends React.Component {
     render() {
-        const items = [
-            {'name': 'First item', 'text': 'This is the text of the first item'},
-            {'name': 'Second item', 'text': 'This is the text of the second item'},
-            {'name': 'Third item', 'text': 'This is the text of the third item'},
-            {'name': 'First item', 'text': 'This is the text of the first item'},
-            {'name': 'Second item', 'text': 'This is the text of the second item'},
-            {'name': 'Third item', 'text': 'This is the text of the third item'},
-        ];
-
-        const tiles = items.map((items, i) => {
+        const tiles = this.props.tilesData.map((tilesData, i) => {
             return (
-                <Tile key={i} name={items['name']}/>
+                <Tile key={i} tilesData={tilesData}/>
             )
         });
 
@@ -57,12 +49,20 @@ class Page extends React.Component {
 
 
     render() {
+        const tilesData = [
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
+        ];
         return (
             <div className="container page">
 
                 <div className="page-content">
                     <Info/>
-                    <Panel/>
+                    <Panel tilesData={tilesData}/>
                 </div>
             </div>
         );
