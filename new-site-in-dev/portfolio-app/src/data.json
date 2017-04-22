@@ -1,0 +1,51 @@
+{
+  "tilesData": [
+    {
+      "name": "First item",
+      "text": "This is the text of the first item"
+    },
+    {
+      "name": "Second item",
+      "text": "This is the text of the second item"
+    },
+    {
+      "name": "Third item",
+      "text": "This is the text of the third item"
+    },
+    {
+      "name": "First item",
+      "text": "Some other text of the first item"
+    },
+    {
+      "name": "Fourth item",
+      "text": "This is the text of the second item"
+    },
+    {
+      "name": "Third item",
+      "text": "This is the text of the third item"
+    }
+  ],
+  "infoData": {
+    "name": "Kay Bennu",
+    "title": "Web Developer",
+    "description": "Junior web developer with business background. Currently open for new projects, job and internship opportunities.",
+    "links": [
+      {
+        "name": "Github",
+        "link": "https://github.com/katebennu"
+      },
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/ekaterinadorrer/"
+      },
+      {
+        "name": "Codewars",
+        "link": "https://www.codewars.com/users/katebennu"
+      },
+      {
+        "name": "Codepen",
+        "link": "http://codepen.io/KateBennu/"
+      }
+    ]
+  }
+}
