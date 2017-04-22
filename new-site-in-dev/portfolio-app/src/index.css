@@ -1,52 +1,51 @@
 body {
-  margin: 0;
-  padding-top: 30px;
-  font-family: sans-serif;
-  background: #1B0642;
+  margin: 100px 0 50px 0;
+  background-image: url("images/abstract-2179083_1920.jpg");
+  background-size: cover;
+  background-position: center;
   color: #28262C;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+h3 {
+  font-family: 'Plaster', cursive;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 .page,
 .page-content,
 .panel,
 .tile {
-  border-radius: 10px;
-  padding: 10px;
   text-align: center;
   color: #28262C;
 }
 
 .page {
-  background-color: #998FC7;
 }
 
 .page-content {
-  background-color: #D4C2FC;
+  color: #F9F5FF;
 }
 
 .panel {
-  background-color: #F9F5FF;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  background: none;
 }
-
-/*CHARLESTON GREEN
-
-gray - #28262C
-light violet - #998FC7
-very light violet - #D4C2FC
-almost white - #F9F5FF
-dark violet - #1B0642
-*/
 
 .tile {
+  background-color: #F9F5FF;
   display: inline-block;
-  margin: 5px;
-  width: 290px;
+  width: 100%;
   text-align: left;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
-h4 {
-  text-align: center;
-}
 
 .contact-links {
   margin-bottom: 20px;
@@ -61,3 +60,12 @@ h4 {
   font-size: 12px;
   background-color: #F9F5FF;
 }
+
+
+/*
+gray - #28262C
+light violet - #998FC7
+very light violet - #D4C2FC
+almost white - #F9F5FF
+dark violet - #1B0642
+*/
