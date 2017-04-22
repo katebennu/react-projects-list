@@ -5,12 +5,14 @@ body {
 }
 
 .page,
+.page-content,
 .panel,
 .tile {
   border-color: gray;
   border-style: solid;
   border-radius: 10px;
   padding: 5px;
+  text-align: center;
 }
 
 .tile {
