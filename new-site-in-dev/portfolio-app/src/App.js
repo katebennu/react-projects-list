@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 class Tile extends React.Component {
     render() {
         return (
             <div className="tile">
-                <p>Hi, I'm a Tile</p>
+                <p>Hi, I'm a Tile </p>
             </div>
         );
     }
@@ -17,11 +17,14 @@ class Panel extends React.Component {
             {'name': 'First item', 'text': 'This is the text of the first item'},
             {'name': 'Second item', 'text': 'This is the text of the second item'},
             {'name': 'Third item', 'text': 'This is the text of the third item'},
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
         ];
 
-        const tiles = data.map((i) => {
+        const tiles = data.map((data, i) => {
             return (
-                <Tile/>
+                <Tile key={i}/>
             )
         });
 
