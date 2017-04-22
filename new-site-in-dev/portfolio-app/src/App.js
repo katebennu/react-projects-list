@@ -30,7 +30,28 @@ class Panel extends React.Component {
 
 class Info extends React.Component {
     render() {
-        const data = {
+        return (
+            <div>
+            <h3>{this.props.infoData['name']}</h3>
+            <h4>{this.props.infoData['title']}</h4>
+            <h5>{this.props.infoData['description']}</h5>
+            </div>
+        );
+    }
+}
+
+class Page extends React.Component {
+    render() {
+        const tilesData = [
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
+            {'name': 'First item', 'text': 'This is the text of the first item'},
+            {'name': 'Second item', 'text': 'This is the text of the second item'},
+            {'name': 'Third item', 'text': 'This is the text of the third item'},
+        ];
+
+        const infoData  = {
             'name': 'Kay Bennu',
             'title': 'Web Developer',
             'description': 'Junior web developer with business background. Currently open for new projects, job and internship opportunities',
@@ -41,27 +62,12 @@ class Info extends React.Component {
                 {'name': 'Codepen', 'link': 'http://codepen.io/KateBennu/'}
             ]
         };
-        return <div>{JSON.stringify(data)}</div>;
-    }
-}
 
-class Page extends React.Component {
-
-
-    render() {
-        const tilesData = [
-            {'name': 'First item', 'text': 'This is the text of the first item'},
-            {'name': 'Second item', 'text': 'This is the text of the second item'},
-            {'name': 'Third item', 'text': 'This is the text of the third item'},
-            {'name': 'First item', 'text': 'This is the text of the first item'},
-            {'name': 'Second item', 'text': 'This is the text of the second item'},
-            {'name': 'Third item', 'text': 'This is the text of the third item'},
-        ];
         return (
             <div className="container page">
 
                 <div className="page-content">
-                    <Info/>
+                    <Info infoData={infoData}/>
                     <Panel tilesData={tilesData}/>
                 </div>
             </div>
