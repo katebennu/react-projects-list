@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Page from './App';
 import './index.css';
-import DATA from './data.json';
+import data from './data.json';
 
 
 ReactDOM.render(
-  <Page data={DATA}/>,
+  <Page data={data}/>,
   document.getElementById('root')
 );

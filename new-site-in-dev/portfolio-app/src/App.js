@@ -14,10 +14,8 @@ class Tile extends React.Component {
 
 class Panel extends React.Component {
     render() {
-        const tiles = this.props.tilesData.map((tilesData, i) => {
-            return (
-                <Tile key={tilesData['name']} tilesData={tilesData}/>
-            )
+        const tiles = this.props.tilesData.map((tilesData) => {
+            return <Tile key={tilesData['name']} tilesData={tilesData}/>
         });
 
         return (
@@ -30,11 +28,15 @@ class Panel extends React.Component {
 
 class Info extends React.Component {
     render() {
+        const links = this.props.infoData['links'].map((links) => {
+            return <li key={links['name']}><a href={links['link']}>{links['name']}</a></li>
+        });
         return (
             <div>
-            <h3>{this.props.infoData['name']}</h3>
-            <h4>{this.props.infoData['title']}</h4>
-            <h5>{this.props.infoData['description']}</h5>
+                <h3>{this.props.infoData['name']}</h3>
+                <h4>{this.props.infoData['title']}</h4>
+                <h5>{this.props.infoData['description']}</h5>
+                <ul className="contact-links">{links}</ul>
             </div>
         );
     }
@@ -42,11 +44,8 @@ class Info extends React.Component {
 
 class Page extends React.Component {
     render() {
-
-
         return (
             <div className="container page">
-
                 <div className="page-content">
                     <Info infoData={this.props.data['infoData']}/>
                     <Panel tilesData={this.props.data['tilesData']}/>

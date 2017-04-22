@@ -20,3 +20,17 @@ body {
   margin: 5px;
   width: 150px;
 }
+
+.contact-links {
+  list-style-type: none;
+}
+
+.contact-links li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+  width: 80px;
+}
