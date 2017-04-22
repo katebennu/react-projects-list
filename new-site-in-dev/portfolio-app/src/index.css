@@ -11,26 +11,32 @@ body {
   border-color: gray;
   border-style: solid;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 
 .tile {
   display: inline-block;
   margin: 5px;
-  width: 150px;
+  width: 290px;
+  text-align: left;
+}
+
+h4 {
+  text-align: center;
 }
 
 .contact-links {
-  list-style-type: none;
+  margin-bottom: 20px;
 }
 
-.contact-links li {
+.contact-links div {
   display: inline-block;
   margin: 5px;
   padding: 5px;
   border-color: gray;
   border-style: solid;
   border-radius: 10px;
-  width: 80px;
+  width: 70px;
+  font-size: 12px;
 }

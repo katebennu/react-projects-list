@@ -1,28 +1,28 @@
 {
   "tilesData": [
     {
-      "name": "First item",
-      "text": "This is the text of the first item"
+      "name": "Data Visualization App",
+      "text": "Web app for data visualization of solar energy production and electricity consumption in residential buildings. Scheduled aggregation and processing of data from three third-party APIs. Full responsibility for the technical implementation of theproject.",
+      "stack": "JavaScript, D3, JQuery, Python, Django, PostgreSQL, Docker",
+      "url": ""
     },
     {
-      "name": "Second item",
-      "text": "This is the text of the second item"
+      "name": "Contact and Portfolio Page",
+      "text": "Personal page to demonstrate projects. Developed with React in one week.",
+      "stack": "JavaScript, React",
+      "url": "http://kbennu.com"
     },
     {
-      "name": "Third item",
-      "text": "This is the text of the third item"
+      "name": "JavaScript Games Platform",
+      "text": "App developed for a master-level course Web Software Development at Aalto. Functionality including: two categories of users: players and developers, purchases through a third-party payment system, playing third-party games and storing scores and game states",
+      "stack": "JavaScript, JQuery, Python, Django, PostgreSQL",
+      "url": "http://shielded-tor-84132.herokuapp.com/"
     },
     {
-      "name": "First item",
-      "text": "Some other text of the first item"
-    },
-    {
-      "name": "Fourth item",
-      "text": "This is the text of the second item"
-    },
-    {
-      "name": "Third item",
-      "text": "This is the text of the third item"
+      "name": "Questionnaire App",
+      "text": "App for Stupid Hackathon. Never-ending questionnaire.",
+      "stack": "JavaScript, React",
+      "url": "http://kbennu.com/stupidquestionnaire/"
     }
   ],
   "infoData": {

@@ -4,8 +4,10 @@ class Tile extends React.Component {
     render() {
         return (
             <div className="tile">
-                <p>Hi, I'm a {this.props.tilesData['name']} </p>
+                <h4>{this.props.tilesData['name']} </h4>
                 <p>{this.props.tilesData['text']}</p>
+                <p><b>{this.props.tilesData['stack']}</b></p>
+                <a href={this.props.tilesData['url']}>{this.props.tilesData['url']}</a>
             </div>
         );
     }
@@ -29,14 +31,14 @@ class Panel extends React.Component {
 class Info extends React.Component {
     render() {
         const links = this.props.infoData['links'].map((links) => {
-            return <li key={links['name']}><a href={links['link']}>{links['name']}</a></li>
+            return <div key={links['name']}><a href={links['link']}>{links['name']}</a></div>
         });
         return (
             <div>
                 <h3>{this.props.infoData['name']}</h3>
                 <h4>{this.props.infoData['title']}</h4>
                 <h5>{this.props.infoData['description']}</h5>
-                <ul className="contact-links">{links}</ul>
+                <div className="contact-links">{links}</div>
             </div>
         );
     }
