@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-app",
+  "name": "kbennucom",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://katebennu.github.io",
   "dependencies": {
     "react": "^15.5.3",
     "react-dom": "^15.5.3"
@@ -17,6 +18,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "homepage": "https://katebennu.github.io"
+  }
 }
