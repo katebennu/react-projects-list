@@ -38,10 +38,12 @@ body {
 h3 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
+  text-shadow: 1px 2px 1px black;
 }
 
-h4 {
+.upper-text h4 {
   font-weight: bold;
+  text-shadow: 1px 1px 1px black;
 }
 
 a {
@@ -90,7 +92,7 @@ a {
   -ms-animation: fadein 2s; /* Internet Explorer */
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
-  box-shadow: 2px 3px 2px lightgrey;
+  box-shadow: 2px 3px 2px 1px lightgrey;
 }
 
 .tile:hover {
@@ -99,7 +101,7 @@ a {
   -ms-transform: scale(1.01, 1.01);
   -webkit-transform: scale(1.01, 1.01);
   -o-transform: scale(1.01, 1.01);
-  box-shadow: 3px 5px 3px lightgrey;
+  box-shadow: 3px 5px 3px 1px lightgrey;
 }
 
 @keyframes fadein {
@@ -134,6 +136,10 @@ a {
 .tile-name {
   background-color: #75ccb9;
   padding: 3px 30px 3px 30px;
+}
+
+.tile-name h4 {
+  font-weight: bold;
 }
 
 .tile-content {
