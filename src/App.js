@@ -49,8 +49,8 @@ class Info extends React.Component {
 class Page extends React.Component {
     render() {
         return (
-            <div className="container page">
-                <div className="page-content">
+            <div className="parallax page">
+                <div className="container page-content">
                     <Info infoData={this.props.data['infoData']}/>
                     <Panel tilesData={this.props.data['tilesData']}/>
                 </div>
