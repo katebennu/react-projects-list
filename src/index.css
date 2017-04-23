@@ -1,0 +1,71 @@
+body {
+  margin: 100px 0 50px 0;
+  background-image: url("images/abstract-2179083_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #28262C;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+h3 {
+  font-family: 'Plaster', cursive;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.page,
+.page-content,
+.panel,
+.tile {
+  text-align: center;
+  color: #28262C;
+}
+
+.page {
+}
+
+.page-content {
+  color: #F9F5FF;
+}
+
+.panel {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  background: none;
+}
+
+.tile {
+  background-color: #F9F5FF;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+.contact-links {
+  margin-bottom: 20px;
+}
+
+.contact-links div {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 70px;
+  font-size: 12px;
+  background-color: #F9F5FF;
+}
+
+
+/*
+gray - #28262C
+light violet - #998FC7
+very light violet - #D4C2FC
+almost white - #F9F5FF
+dark violet - #1B0642
+*/
