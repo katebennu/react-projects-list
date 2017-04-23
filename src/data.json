@@ -9,18 +9,21 @@
     },
     {
       "name": "Contact and Portfolio Page",
+      "dates": "04.2017",
       "text": "Personal landing page to demonstrate projects. Developed with React.",
       "stack": "JavaScript, React",
       "url": "http://kbennu.com"
     },
     {
       "name": "JavaScript Games Platform",
+      "dates": "01.2017 - 02.2017",
       "text": "App developed for a master-level course Web Software Development at Aalto University. Functionality including: two categories of users: players and developers, purchases through a third-party payment system, playing third-party games and storing scores and game states",
       "stack": "JavaScript, JQuery, Python, Django, PostgreSQL",
       "url": "http://shielded-tor-84132.herokuapp.com/"
     },
     {
       "name": "Questionnaire App",
+      "dates": "03.2017",
       "text": "App for Stupid Hackathon. A never-ending questionnaire.",
       "stack": "JavaScript, React",
       "url": "http://kbennu.com/stupidquestionnaire/"
