@@ -35,7 +35,7 @@ class Panel extends React.Component {
 class Info extends React.Component {
     render() {
         const links = this.props.infoData['links'].map((links) => {
-            return <div key={links['name']}><a href={links['link']}>{links['name']}</a></div>
+            return <a href={links['link']}><div key={links['name']}>{links['name']}</div></a>
         });
         return (
             <div>
