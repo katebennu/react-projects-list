@@ -7,14 +7,27 @@ body {
   font-family: 'Yantramanav', sans-serif;
 }
 
+.upper-box {
+  width: 100%;
+  max-width: 950px;
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  background-color: #0a1528;
+}
+
+.upper-text {
+  padding: 20px;
+}
+
 .upper-text h3:hover,
 .upper-text h4:hover {
   color: #c8e6c9;
-  transform: scale(1.02, 1.02);
-  -moz-transform: scale(1.02, 1.02);
-  -ms-transform: scale(1.02, 1.02);
-  -webkit-transform: scale(1.02, 1.02);
-  -o-transform: scale(1.02, 1.02);
+  transform: scale(1.01, 1.01);
+  -moz-transform: scale(1.01, 1.01);
+  -ms-transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.01, 1.01);
+  -o-transform: scale(1.01, 1.01);
 }
 
 .upper-text h5:hover {
@@ -32,6 +45,7 @@ h4 {
 
 a {
   color: #28262C;
+  font-size: 16px;
 }
 
 .page,
@@ -39,34 +53,42 @@ a {
 .panel,
 .tile {
   color: #28262C;
+  text-align: center;
 }
 
 .page {
   height: 100%;
-  padding: 50px 20px 50px 20px;
+  padding: 50px 0 0 0;
+
 }
 
 .page-content {
+  width: 100%;
   color: white;
+
 }
 
 .panel {
-  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  /*background-color: #0a1528;*/
+  margin-top: 30px;
   margin-bottom: -20px;
-  background: none;
+
+}
+
+.tile {
+  display: inline-block;
+  width: 90%;
+  max-width: 950px;
+  text-align: left;
+  margin-bottom: 16px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -webkit-animation-direction: ;
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
   -o-animation: fadein 2s; /* Opera < 12.1 */
   animation: fadein 2s;
-}
-
-.tile {
-  display: inline-block;
-  width: 100%;
-  text-align: left;
-  margin-bottom: 16px;
 }
 
 .tile:hover {
@@ -120,11 +142,6 @@ a {
   color: #00b686;
 }
 
-
-.tile-content:hover {
-  background-color: #e8f5e9;
-}
-
 .contact-links {
   margin-bottom: 20px;
   text-align: center;
@@ -153,11 +170,11 @@ a {
   -o-transform: scale(1.02, 1.02);
 }
 
-.parallax {
-  background-image: url("images/abstract-2179083_1920.jpg");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-}
+/*.parallax {*/
+  /*background-image: url("images/abstract-2179083_1920.jpg");*/
+  /*height: 100%;*/
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  /*background-repeat: repeat;*/
+  /*background-size: cover;*/
+/*}*/

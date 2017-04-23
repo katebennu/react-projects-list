@@ -35,13 +35,16 @@ class Panel extends React.Component {
 class Info extends React.Component {
     render() {
         const links = this.props.infoData['links'].map((links) => {
-            return <a href={links['link']} target="_blank"><div key={links['name']}><b>{links['name']}</b></div></a>
+            return <a href={links['link']} target="_blank">
+                <div key={links['name']}><b>{links['name']}</b></div>
+            </a>
         });
         return (
-            <div className="upper-text">
-                <h3>{this.props.infoData['name']}</h3>
-                <h4>{this.props.infoData['title']}</h4>
-                <h5>{this.props.infoData['description']}</h5>
+            <div className="upper-box">
+                <div className="upper-text">
+                    <h3>{this.props.infoData['name']}</h3>
+                    <h4>{this.props.infoData['title']}</h4>
+                    <h5>{this.props.infoData['description']}</h5></div>
                 <div className="contact-links">{links}</div>
             </div>
         );
@@ -52,7 +55,7 @@ class Page extends React.Component {
     render() {
         return (
             <div className="parallax page">
-                <div className="container page-content">
+                <div className="page-content">
                     <Info infoData={this.props.data['infoData']}/>
                     <Panel tilesData={this.props.data['tilesData']}/>
                 </div>
