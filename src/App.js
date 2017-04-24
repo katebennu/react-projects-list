@@ -6,7 +6,7 @@ class Tile extends React.Component {
             <div className="tile">
                 <div className="tile-name"><h4>{this.props.tilesData['name']} </h4></div>
                 <div className="tile-content">
-                    <p><i>{this.props.tilesData['dates']}</i></p>
+                    <p className="date">{this.props.tilesData['dates']}</p>
                     <p>{this.props.tilesData['text']}</p>
                     <p><b>{this.props.tilesData['stack']}</b></p>
                     {this.props.tilesData['url'] ? (<a href={this.props.tilesData['url']}>Link</a>) : (

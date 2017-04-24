@@ -3,7 +3,7 @@
     {
       "name": "Data Visualization App",
       "dates": "03.2017 - 05.2017",
-      "text": "Web app for data visualization of solar energy production and electricity consumption in residential buildings. Scheduled aggregation and processing of data from three third-party APIs. Full responsibility for the technical implementation of theproject.",
+      "text": "Web app for data visualization of solar energy production and electricity consumption in residential buildings. Scheduled aggregation and processing of data from three third-party APIs. Full responsibility for technical implementation of the project.",
       "stack": "JavaScript, D3, JQuery, Python, Django, PostgreSQL, Docker",
       "url": ""
     },
