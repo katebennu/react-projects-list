@@ -1,0 +1,10 @@
+#!/bin/bash
+# Deploy kbennu.com: $ . ./startup-solar
+
+npm run build
+cp -arv build /tmp/
+git checkout master
+cp -arv /tmp/build/* .
+git add .
+git ac "deploy"
+git push
